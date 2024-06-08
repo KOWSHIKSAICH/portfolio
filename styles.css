@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: #f5f5f5; /* Light gray background for the body */
+}
+
+header {
+    background: #2c3e50; /* Dark slate blue */
+    color: #ecf0f1; /* Light gray */
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav {
+    background: #34495e; /* Darker slate blue */
+    color: #ecf0f1;
+    padding: 0.5em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #3498db; /* Light blue on hover */
+}
+
+section {
+    padding: 2em;
+    margin: 1em 0;
+    border-radius: 8px;
+    background: #ffffff; /* White background for sections */
+}
+
+section#about {
+    background: #ecf0f1; /* Very light gray for about section */
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background: #2c3e50; /* Same dark slate blue as header */
+    color: #ecf0f1;
+}
